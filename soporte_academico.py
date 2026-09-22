@@ -35,7 +35,9 @@ def asignar_prioridad(tipo):
     # matrícula y pagos = ALTA
     # constancia, plataforma y otro = BAJA
 
-    if tipo_limpio == "matrícula" or tipo_limpio == "pagos":
+    tipos_prioridad_alta = ("matrícula", "pagos")
+
+    if tipo_limpio in tipos_prioridad_alta: 
         return "ALTA"
     else:
         return "BAJA"
