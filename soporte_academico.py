@@ -116,6 +116,7 @@ def mostrar_solicitudes(solicitudes):
 
     print("\n" + "=" * 45)
     print("       SOLICITUDES REGISTRADAS")
+    print(f"Total de solicitudes: { len(solicitudes)}")
     print("=" * 45)
 
     for i, solicitud in enumerate(solicitudes, start=1):
