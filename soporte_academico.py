@@ -128,6 +128,7 @@ def mostrar_solicitudes(solicitudes):
 
 
 def main():
+    # La lista se mantiene dentro de main y se pasa a las funciones mediante parámetros.
     solicitudes = []
 
     while True:
