@@ -45,6 +45,7 @@ def asignar_prioridad(tipo):
 
 
 def registrar_solicitud(solicitudes):
+    """Registra una solicitud usando la lista recibida como parámetro."""
     print("\n--- REGISTRO DE SOLICITUD ---")
     print("Ingrese los datos básicos de la solicitud.")
 
