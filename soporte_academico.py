@@ -46,7 +46,10 @@ def registrar_solicitud(solicitudes):
     codigo = input("Código del estudiante: ")
 
     if not validar_codigo(codigo):
-        print("Error: el código debe tener al menos 8 caracteres.")
+        if codigo.strip() == "":
+            print("Error: el código no puede estar vacío.")
+        else:
+            print("Error: el código debe tener al menos 8 caracteres.")
         return None
 
     nombre = input("Nombre del estudiante: ")
