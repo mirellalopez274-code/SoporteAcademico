@@ -28,3 +28,14 @@ Python
 ## Prioridades
 - Matrícula y pagos: ALTA
 - Constancia, plataforma y otro: BAJA
+## Funciones y requisitos
+
+- mostrar_menu(): muestra el menú principal del sistema. Cumple el Req. 4.
+- asignar_prioridad(tipo): determina la prioridad de la solicitud según el tipo de consulta. Cumple el Req. 5.
+- validar_texto(texto): valida que los campos de texto obligatorios no estén vacíos. Cumple el Req. 6.
+- mostrar_resumen(solicitud): muestra los datos de una solicitud registrada. Cumple el Req. 7.
+- validar_codigo(codigo): valida que el código del estudiante no esté vacío y tenga la longitud mínima establecida. Apoya el Req. 2.
+- validar_tipo_consulta(tipo): verifica que el tipo de consulta sea válido. Apoya el Req. 3.
+- registrar_solicitud(solicitudes): recibe la lista mediante parámetros y registra una solicitud. Apoya los Req. 1 y 8.
+- mostrar_solicitudes(solicitudes): muestra las solicitudes almacenadas y permite comprobar el registro de múltiples solicitudes. Apoya los Req. 9 y 10.
+- main(): controla el flujo principal del programa y mantiene las variables principales dentro de su alcance.
