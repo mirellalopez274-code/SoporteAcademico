@@ -99,6 +99,7 @@ def registrar_solicitud(solicitudes):
 
 
 def mostrar_resumen(solicitud):
+    """Muestra el resumen de una solicitud registrada."""
     print("\n--- RESUMEN DE SOLICITUD ---")
     print(f"Código: {solicitud['codigo']}")
     print(f"Nombre: {solicitud['nombre']}")
