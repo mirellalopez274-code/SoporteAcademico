@@ -39,3 +39,15 @@ Python
 - registrar_solicitud(solicitudes): recibe la lista mediante parámetros y registra una solicitud. Apoya los Req. 1 y 8.
 - mostrar_solicitudes(solicitudes): muestra las solicitudes almacenadas y permite comprobar el registro de múltiples solicitudes. Apoya los Req. 9 y 10.
 - main(): controla el flujo principal del programa y mantiene las variables principales dentro de su alcance.
+## Pruebas realizadas
+
+| Caso de prueba | Resultado |
+|---|---|
+| Datos válidos | Correcto |
+| Código vacío | Correcto |
+| Tipo incorrecto | Correcto |
+| Prioridad alta | Correcto |
+| Prioridad baja | Correcto |
+
+Las pruebas fueron ejecutadas en el programa para comprobar las
+validaciones y la asignación de prioridades.
