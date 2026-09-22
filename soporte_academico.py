@@ -42,7 +42,7 @@ def asignar_prioridad(tipo):
 
 def registrar_solicitud(solicitudes):
     print("\n--- REGISTRO DE SOLICITUD ---")
-
+    print("Ingrese los datos básicos de la solicitud.")
     codigo = input("Código del estudiante: ")
 
     if not validar_codigo(codigo):
