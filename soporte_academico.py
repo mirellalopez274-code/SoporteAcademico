@@ -10,6 +10,7 @@ def mostrar_menu():
 
 
 def validar_texto(texto):
+    """"Valida que un texto obligatorio no esté vacío."""
     texto_limpio = texto.strip()
     return texto_limpio != ""
 
