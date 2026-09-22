@@ -1,4 +1,5 @@
 def mostrar_menu():
+    """Muestra el menú principal del sistema de soporte académico."""
     print("\n" + "=" * 45)
     print("   SISTEMA DE SOPORTE ACADÉMICO")
     print("=" * 45)
