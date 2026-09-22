@@ -43,6 +43,7 @@ def asignar_prioridad(tipo):
 def registrar_solicitud(solicitudes):
     print("\n--- REGISTRO DE SOLICITUD ---")
     print("Ingrese los datos básicos de la solicitud.")
+
     codigo = input("Código del estudiante: ")
 
     if not validar_codigo(codigo):
@@ -59,11 +60,9 @@ def registrar_solicitud(solicitudes):
         return None
 
     print("\nTipos de consulta disponibles:")
-    print("1. matrícula")
-    print("2. pagos")
-    print("3. constancia")
-    print("4. plataforma")
-    print("5. otro")
+
+    for i, tipo_disponible in enumerate(obtener_tipos_consulta(), start=1):
+        print(f"{i}. {tipo_disponible}")
 
     tipo = input("Tipo de consulta: ").strip().lower()
 
